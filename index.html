@@ -42,9 +42,15 @@
 	<![endif]-->
 	<link rel="shortcut icon" href="images/favicon.png" >
 	</head>
+
 	<body>
-	<audio autoplay="autoplay" id="audio" controls=""  style="width: 100%;"><source src="music.mp3" type="audio/mpeg">
-	</audio>
+	<video id="myaudio" controls="" loop="" autoplay="" preload="auto" hidden>
+	<source src="music.mp3" type="audio/mp3">
+	</video>
+  	<script>
+    	var audio = document.getElementById("myaudio");
+  			audio.volume = 0.5;
+  	</script>
 
 
 
@@ -55,7 +61,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
-					<div id="fh5co-logo"><a>Запрошення на весілля<strong>.</strong></a></div>
+					<div id="fh5co-logo"><a>Запрошення на весілля <strong>.</strong></a></div>
 				</div>
 <!--				<div class="col-xs-10 text-right menu-1">-->
 <!--					<ul>-->
