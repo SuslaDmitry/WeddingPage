@@ -3,8 +3,8 @@
 	'use strict';
 
 
+    document.onscroll = function(){audio.play()};
     document.onclick = function(){audio.play()};
-
 	var mobileMenuOutsideClick = function() {
 
 		$(document).click(function (e) {
