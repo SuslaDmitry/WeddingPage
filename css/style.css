@@ -1850,4 +1850,19 @@ form label {
   opacity: 0;
 }
 
+
+body::-webkit-scrollbar {
+  width: 8px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #F14E95;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 0px solid #F14E95;  /* creates padding around scroll thumb */
+}
+
 /*# sourceMappingURL=style.css.map */
